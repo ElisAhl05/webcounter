@@ -2,6 +2,7 @@
 Resource  resource.robot
 Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
+Test Setup  Reset Application
 
 *** Test Cases ***
 When counter has a nonzero value and it is reset the value becomes zero
